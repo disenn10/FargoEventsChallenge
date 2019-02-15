@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Speaker"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        style="@style/margBottomSTyle"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        style="@style/margBottomSTyle"
+        android:id="@+id/speaker_name"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        style="@style/margBottomSTyle"
+        android:id="@+id/speaker_bio"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#444"></TableRow>
+
+</LinearLayout>
