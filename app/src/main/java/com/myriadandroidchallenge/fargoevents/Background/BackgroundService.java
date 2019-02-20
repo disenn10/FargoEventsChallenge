@@ -23,10 +23,6 @@ public class BackgroundService extends IntentService {
         public void getEventDetailInfos(Response<Events> eventsResponse);
     }
 
-    public BackgroundService(String name,String token, int id){
-        super(name);
-
-    }
     public BackgroundService() {
         super("");
         eventDetailInfos = EventDetailActivity.getEventInfos;

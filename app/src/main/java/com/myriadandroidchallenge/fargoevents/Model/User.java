@@ -39,10 +39,10 @@ public class User implements IUser {
         else if(!Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches()){
             return 1;
         }
-        else if(matcher.matches()){
-            if(password.length() < 6 ){
-                return 2;
-            }
+        else if(password.length()<6){
+            return 2;
+        }
+        else if(matcher.matches() ){
             return 3;
         }
         else{
